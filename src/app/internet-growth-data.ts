@@ -15,23 +15,23 @@ export const internetGrowthData: InetData[] = [{
     color: '#deb456'
   }, {
     category: 'Europe',
-    value: 21.1,
+    value: 20,
     color: '#90cc38'
   }, {
     category: 'Latin America',
-    value: 16.3,
+    value: 10,
     color: '#068c35'
   }, {
     category: 'Africa',
-    value: 17.6,
+    value: 10,
     color: '#006634'
   }, {
     category: 'Middle East',
-    value: 9.2,
+    value: 20,
     color: '#004d38'
   }, {
     category: 'North America',
-    value: 4.6,
+    value: 10,
     color: '#033939'
   }]
 }, 
@@ -128,6 +128,9 @@ export const internetGrowthData: InetData[] = [{
     value: 1,
     color: '#deb456'
   }, 
+
+
+
   {
     category: 'North America',
     value: 1,
@@ -136,12 +139,12 @@ export const internetGrowthData: InetData[] = [{
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#90cc38'
   },
   {
     category: 'Asia',
     value: 1,
-    color: '#9de219'
+    color: '#90cc38'
   }, 
   {
     category: 'Europe',
@@ -151,52 +154,55 @@ export const internetGrowthData: InetData[] = [{
   {
     category: 'Latin America',
     value: 1,
-    color: '#068c35'
+    color: '#90cc38'
   }, 
   {
     category: 'Africa',
     value: 1,
-    color: '#006634'
+    color: '#90cc38'
   }, 
   {
     category: 'Middle East',
     value: 1,
-    color: '#004d38'
+    color: '#90cc38'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#90cc38'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#90cc38'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#90cc38'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#90cc38'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#90cc38'
   },
+
+
+
   {
     category: 'Asia',
     value: 1,
-    color: '#9de219'
+    color: '#068c35'
   }, 
   {
     category: 'Europe',
     value: 1,
-    color: '#90cc38'
+    color: '#068c35'
   }, 
   {
     category: 'Latin America',
@@ -206,42 +212,45 @@ export const internetGrowthData: InetData[] = [{
   {
     category: 'Africa',
     value: 1,
-    color: '#006634'
+    color: '#068c35'
   }, 
   {
     category: 'Middle East',
     value: 1,
-    color: '#004d38'
+    color: '#068c35'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#068c35'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#90cc38'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#90cc38'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#90cc38'
   }, 
+
+
+
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#006634'
   },
   {
     category: 'Asia',
     value: 1,
-    color: '#9de219'
+    color: '#006634'
   }, 
   {
     category: 'Europe',
@@ -251,7 +260,7 @@ export const internetGrowthData: InetData[] = [{
   {
     category: 'Latin America',
     value: 1,
-    color: '#068c35'
+    color: '#006634'
   }, 
   {
     category: 'Africa',
@@ -261,17 +270,17 @@ export const internetGrowthData: InetData[] = [{
   {
     category: 'Middle East',
     value: 1,
-    color: '#004d38'
+    color: '#006634'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#006634'
   }, 
   {
     category: 'North America',
     value: 1,
-    color: '#033939'
+    color: '#006634'
   }, 
   {
     category: 'North America',
