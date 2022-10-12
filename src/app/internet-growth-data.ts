@@ -4,8 +4,8 @@ export interface InetData {
     category: string;
     value: number;
     color: string;
+    nthSeries?: number,
     sliceWidth?: number;
-    tooltip?: string
   }[];
 }
 
@@ -14,25 +14,25 @@ export const mockData: InetData[] = [
     name: '1',
     data: [
       {
-        category: 'Asia',
+        nthSeries: 1,
+        category: 'A.S. 1',
         value: 1,
         sliceWidth: 1,
         color: '#deb456',
-        tooltip: 'ciao'
       },
       {
-        category: 'Europa',
+        nthSeries: 1,
+        category: 'A.S. 2',
         value: 2,
         sliceWidth: 2,
         color: '#FF0000',
-        tooltip: 'ciao'
       },
       {
-        category: 'America',
+        nthSeries: 1,
+        category: 'A.S. 3',
         value: 3,
         sliceWidth: 3,
         color: '#00FF00',
-        tooltip: 'ciao'
       },
     ],
   },
@@ -40,46 +40,46 @@ export const mockData: InetData[] = [
     name: '2',
     data: [
       {
+        nthSeries: 2,
         category: 'Asia',
         value: 3,
         sliceWidth: 1,
         color: '#deb456',
-        tooltip: 'ciao'
       },      
       {
+        nthSeries: 2,
         category: 'Europa',
         value: 5,
         sliceWidth: 1,
         color: '#FF0000',
-        tooltip: 'ciao'
       },      
       {
+        nthSeries: 2,
         category: 'Europa',
         value: 5,
         sliceWidth: 1,
         color: '#FF0000',
-        tooltip: 'ciao'
       },      
       {
+        nthSeries: 2,
         category: 'America',
         value: 5,
         sliceWidth: 1,
         color: '#00FF00',
-        tooltip: 'ciao'
       },      
       {
+        nthSeries: 2,
         category: 'America',
         value: 5,
         sliceWidth: 1,
         color: '#00FF00',
-        tooltip: 'ciao'
       },      
       {
+        nthSeries: 2,
         category: 'America',
         value: 1,
         sliceWidth: 1,
         color: '#00FF00',
-        tooltip: 'ciao'
       },
     ],
   },

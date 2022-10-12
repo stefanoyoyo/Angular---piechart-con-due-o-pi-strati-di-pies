@@ -12,9 +12,11 @@ import { internetGrowthData, mockData, InetData } from './internet-growth-data';
         <kendo-chart-tooltip>
           <ng-template kendoChartSeriesTooltipTemplate
             let-value="value" 
+            let-nthSeries="nthSeries" 
             let-category="category" 
             let-series="series">
-              {{ series.name }} 
+            <span *ngIf="nthSeries === 1">{{ category }}</span>
+            <span *ngIf="nthSeries === 1"> : {{ value }}</span>
           </ng-template>
         </kendo-chart-tooltip>
         <kendo-chart-series>
