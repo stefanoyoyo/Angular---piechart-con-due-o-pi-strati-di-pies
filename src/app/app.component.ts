@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { SeriesLabelsContentArgs } from '@progress/kendo-angular-charts';
-import { internetGrowthData, InetData } from './internet-growth-data';
+import { internetGrowthData, mockData, InetData } from './internet-growth-data';
 
 @Component({
     selector: 'my-app',
@@ -16,7 +16,7 @@ import { internetGrowthData, InetData } from './internet-growth-data';
           </ng-template>
         </kendo-chart-tooltip>
         <kendo-chart-series>
-          <kendo-chart-series-item *ngFor="let series of model; let outermost = last;"
+          <kendo-chart-series-item *ngFor="let series of model2; let outermost = last;"
                                    type="donut" [startAngle]="150"
                                    [name]="series.name" 
                                    [data]="series.data"
@@ -32,6 +32,7 @@ import { internetGrowthData, InetData } from './internet-growth-data';
 })
 export class AppComponent {
     public model: InetData[] = internetGrowthData;
+    public model2: InetData[] = mockData;
 
     public labelContent(e: SeriesLabelsContentArgs): string {
         // console.log(JSON.stringify(internetGrowthData))
