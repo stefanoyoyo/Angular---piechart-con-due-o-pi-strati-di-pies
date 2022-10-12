@@ -17,12 +17,14 @@ import { internetGrowthData, mockData, InetData } from './internet-growth-data';
         </kendo-chart-tooltip>
         <kendo-chart-series>
           <kendo-chart-series-item *ngFor="let series of model2; let outermost = last;"
-                                   type="donut" [startAngle]="150"
-                                   [name]="series.name" 
-                                   [data]="series.data"
-                                   [size]="50"
-                                   [holeSize]="20"
-                                   field="value" categoryField="category" colorField="color">
+              type="donut" [startAngle]="150"
+              [name]="series.name" 
+              [data]="series.data"
+              [size]="50"
+              [holeSize]="20"
+              field="value" 
+              categoryField="category" 
+              colorField="color">
             <kendo-chart-series-item-labels *ngIf="outermost"
                                             position="outsideEnd" background="none"
                                             [content]="labelContent">
