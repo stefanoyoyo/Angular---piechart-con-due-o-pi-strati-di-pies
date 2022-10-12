@@ -11,18 +11,21 @@ import { internetGrowthData, mockData, InetData } from './internet-growth-data';
         <kendo-chart-area background="none"></kendo-chart-area>
         <kendo-chart-tooltip>
           <ng-template kendoChartSeriesTooltipTemplate
-                       let-value="value" let-category="category" let-series="series">
-              {{ category }} ({{ series.name }}): {{ value }}%
+            let-value="value" 
+            let-category="category" 
+            let-series="series">
+              {{ series.name }} 
           </ng-template>
         </kendo-chart-tooltip>
         <kendo-chart-series>
           <kendo-chart-series-item *ngFor="let series of model2; let outermost = last;"
-              type="donut" [startAngle]="150"
+              type="donut" 
+              [startAngle]="150"
               [name]="series.name" 
               [data]="series.data"
               [size]="50"
               [holeSize]="20"
-              field="value" 
+              field="sliceWidth" 
               categoryField="category" 
               colorField="color">
             <kendo-chart-series-item-labels *ngIf="outermost"
@@ -39,7 +42,7 @@ export class AppComponent {
     public model2: InetData[] = mockData;
 
     public labelContent(e: SeriesLabelsContentArgs): string {
-        // console.log(JSON.stringify(internetGrowthData))
-        return `${ e.category }: \n ${e.value}%`;
+        console.log(e)
+        return `${ e.category }: \n ${e.dataItem.value}%`;
     }
 }

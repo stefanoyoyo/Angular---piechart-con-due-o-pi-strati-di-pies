@@ -4,7 +4,8 @@ export interface InetData {
     category: string;
     value: number;
     color: string;
-    size?: number;
+    sliceWidth?: number;
+    tooltip?: string
   }[];
 }
 
@@ -15,17 +16,23 @@ export const mockData: InetData[] = [
       {
         category: 'Asia',
         value: 1,
+        sliceWidth: 1,
         color: '#deb456',
+        tooltip: 'ciao'
       },
       {
         category: 'Europa',
         value: 2,
+        sliceWidth: 2,
         color: '#FF0000',
+        tooltip: 'ciao'
       },
       {
         category: 'America',
         value: 3,
+        sliceWidth: 3,
         color: '#00FF00',
+        tooltip: 'ciao'
       },
     ],
   },
@@ -34,34 +41,45 @@ export const mockData: InetData[] = [
     data: [
       {
         category: 'Asia',
-        value: 1,
-        size: 1,
+        value: 3,
+        sliceWidth: 1,
         color: '#deb456',
+        tooltip: 'ciao'
       },      
       {
         category: 'Europa',
-        value: 1,
+        value: 5,
+        sliceWidth: 1,
         color: '#FF0000',
+        tooltip: 'ciao'
       },      
       {
         category: 'Europa',
-        value: 1,
+        value: 5,
+        sliceWidth: 1,
         color: '#FF0000',
+        tooltip: 'ciao'
+      },      
+      {
+        category: 'America',
+        value: 5,
+        sliceWidth: 1,
+        color: '#00FF00',
+        tooltip: 'ciao'
+      },      
+      {
+        category: 'America',
+        value: 5,
+        sliceWidth: 1,
+        color: '#00FF00',
+        tooltip: 'ciao'
       },      
       {
         category: 'America',
         value: 1,
+        sliceWidth: 1,
         color: '#00FF00',
-      },      
-      {
-        category: 'America',
-        value: 1,
-        color: '#00FF00',
-      },      
-      {
-        category: 'America',
-        value: 1,
-        color: '#00FF00',
+        tooltip: 'ciao'
       },
     ],
   },
