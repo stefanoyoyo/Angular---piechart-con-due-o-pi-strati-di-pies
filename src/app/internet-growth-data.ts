@@ -39,27 +39,27 @@ export const mockData: InetData[] = [
       {
         category: 'Europa',
         value: 1,
-        color: '#deb456',
+        color: '#FF0000',
       },      
       {
         category: 'Europa',
         value: 1,
-        color: '#deb456',
+        color: '#FF0000',
       },      
       {
         category: 'America',
         value: 1,
-        color: '#deb456',
+        color: '#00FF00',
       },      
       {
         category: 'America',
         value: 1,
-        color: '#deb456',
+        color: '#00FF00',
       },      
       {
         category: 'America',
         value: 1,
-        color: '#deb456',
+        color: '#00FF00',
       },
     ],
   },
