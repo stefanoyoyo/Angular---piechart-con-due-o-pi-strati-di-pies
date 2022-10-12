@@ -20,6 +20,8 @@ import { internetGrowthData, mockData, InetData } from './internet-growth-data';
                                    type="donut" [startAngle]="150"
                                    [name]="series.name" 
                                    [data]="series.data"
+                                   [size]="50"
+                                   [holeSize]="20"
                                    field="value" categoryField="category" colorField="color">
             <kendo-chart-series-item-labels *ngIf="outermost"
                                             position="outsideEnd" background="none"

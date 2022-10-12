@@ -4,6 +4,7 @@ export interface InetData {
     category: string;
     value: number;
     color: string;
+    size?: number;
   }[];
 }
 
@@ -34,6 +35,7 @@ export const mockData: InetData[] = [
       {
         category: 'Asia',
         value: 1,
+        size: 1,
         color: '#deb456',
       },      
       {
