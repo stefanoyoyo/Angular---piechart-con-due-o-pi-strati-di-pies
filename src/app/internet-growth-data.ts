@@ -7,7 +7,8 @@ export interface InetData {
   }[];
 }
 
-export const internetGrowthData: InetData[] = [{
+export const internetGrowthData: InetData[] = [
+  {
   name: '2011',
   data: [{
     category: 'Asia',
@@ -38,6 +39,7 @@ export const internetGrowthData: InetData[] = [{
 {
   name: '2012',
   data: [
+    //Asia
   {
     category: 'Asia',
     value: 1,
@@ -128,9 +130,7 @@ export const internetGrowthData: InetData[] = [{
     value: 1,
     color: '#deb456'
   }, 
-
-
-
+// Europa
   {
     category: 'North America',
     value: 1,
@@ -191,11 +191,9 @@ export const internetGrowthData: InetData[] = [{
     value: 1,
     color: '#90cc38'
   },
-
-
-
+// Latin america
   {
-    category: 'Asia',
+    category: 'Latin america',
     value: 1,
     color: '#068c35'
   }, 
@@ -239,9 +237,7 @@ export const internetGrowthData: InetData[] = [{
     value: 1,
     color: '#90cc38'
   }, 
-
-
-
+// North america
   {
     category: 'North America',
     value: 1,
@@ -271,7 +267,7 @@ export const internetGrowthData: InetData[] = [{
     category: 'Middle East',
     value: 1,
     color: '#006634'
-  }, 
+  },
   {
     category: 'North America',
     value: 1,
@@ -282,6 +278,7 @@ export const internetGrowthData: InetData[] = [{
     value: 1,
     color: '#006634'
   }, 
+  // Africa
   {
     category: 'North America',
     value: 1,

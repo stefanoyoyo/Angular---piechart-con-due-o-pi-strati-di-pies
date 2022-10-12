@@ -33,6 +33,7 @@ export class AppComponent {
     public model: InetData[] = internetGrowthData;
 
     public labelContent(e: SeriesLabelsContentArgs): string {
+        // console.log(JSON.stringify(internetGrowthData))
         return `${ e.category }: \n ${e.value}%`;
     }
 }
