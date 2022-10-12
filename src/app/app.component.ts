@@ -18,7 +18,8 @@ import { internetGrowthData, InetData } from './internet-growth-data';
         <kendo-chart-series>
           <kendo-chart-series-item *ngFor="let series of model; let outermost = last;"
                                    type="donut" [startAngle]="150"
-                                   [name]="series.name" [data]="series.data"
+                                   [name]="series.name" 
+                                   [data]="series.data"
                                    field="value" categoryField="category" colorField="color">
             <kendo-chart-series-item-labels *ngIf="outermost"
                                             position="outsideEnd" background="none"
