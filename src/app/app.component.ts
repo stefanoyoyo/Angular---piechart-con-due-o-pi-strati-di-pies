@@ -31,8 +31,9 @@ import { internetGrowthData, mockData, InetData } from './internet-growth-data';
               colorField="color">
             <!-- Labels di ogni fetta -->
             <kendo-chart-series-item-labels *ngIf="outermost"
-                                            position="outsideEnd" background="none"
-                                            [content]="labelContent">
+              position="outsideEnd" 
+              background="none"
+              [content]="labelContent">
             </kendo-chart-series-item-labels>
           </kendo-chart-series-item>
         </kendo-chart-series>
