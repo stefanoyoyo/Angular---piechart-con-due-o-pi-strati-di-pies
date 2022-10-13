@@ -9,6 +9,7 @@ import { internetGrowthData, mockData, InetData } from './internet-growth-data';
         <kendo-chart-title text="Share of Internet Population Growth"></kendo-chart-title>
         <kendo-chart-legend [visible]="false"></kendo-chart-legend>
         <kendo-chart-area background="none"></kendo-chart-area>
+        <!-- Tooltip -->
         <kendo-chart-tooltip>
           <ng-template kendoChartSeriesTooltipTemplate
             let-value="value" 
