@@ -6,6 +6,7 @@ export interface InetData {
     color: string;
     nthSeries?: number,
     sliceWidth?: number;
+    canShowLabel?: boolean;
   }[];
 }
 
@@ -40,6 +41,7 @@ export const mockData: InetData[] = [
     name: '2',
     data: [
       {
+        canShowLabel: true,
         nthSeries: 2,
         category: 'A110',
         value: 3,
@@ -47,6 +49,7 @@ export const mockData: InetData[] = [
         color: '#deb456',
       },      
       {
+        canShowLabel: true,
         nthSeries: 2,
         category: 'B234',
         value: 5,
@@ -54,6 +57,7 @@ export const mockData: InetData[] = [
         color: '#FF0000',
       },      
       {
+        canShowLabel: false,
         nthSeries: 2,
         category: 'S332',
         value: 7,
@@ -61,6 +65,7 @@ export const mockData: InetData[] = [
         color: '#FF0000',
       },      
       {
+        canShowLabel: true,
         nthSeries: 2,
         category: 'E332',
         value: 8,
@@ -68,6 +73,7 @@ export const mockData: InetData[] = [
         color: '#00FF00',
       },      
       {
+        canShowLabel: false,
         nthSeries: 2,
         category: 'Y665',
         value: 2,
@@ -75,6 +81,7 @@ export const mockData: InetData[] = [
         color: '#00FF00',
       },      
       {
+        canShowLabel: false,
         nthSeries: 2,
         category: 'G432',
         value: 9,

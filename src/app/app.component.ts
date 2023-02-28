@@ -46,6 +46,7 @@ export class AppComponent {
 
     public labelContent(e: SeriesLabelsContentArgs): string {
         console.log(e)
+        if (!e.dataItem.canShowLabel) return '';
         if (e.series.type === 'donut') {
           return `${ e.category }: ${e.dataItem.value}`;
         }
